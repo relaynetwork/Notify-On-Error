@@ -1,6 +1,5 @@
 require 'noe/engine' if defined?(Rails)
 require 'application_controller'
-10.times { puts "in main lib file" }
 
 module NotifyOnError
   mattr_accessor :notification_method
